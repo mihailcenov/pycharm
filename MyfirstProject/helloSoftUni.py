@@ -1,0 +1,10 @@
+#print(f"first name")
+first_name = input()
+#print(f"last name")
+last_name = input()
+#print(f"age")
+age = int(input())
+#print(f"town")
+town = input()
+
+print(f"You are {first_name} {last_name}, a {age}-years old person from {town}.")
