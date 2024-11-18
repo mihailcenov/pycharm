@@ -24,7 +24,8 @@ persons = [
         "name": "Venci",
         "surname": "Jordanov",
         "family": "Ilchev",
-        "address": "Lilia, 5"
+        "address": "Lilia, 5",
+        "age": 45
     }
 ]
 
