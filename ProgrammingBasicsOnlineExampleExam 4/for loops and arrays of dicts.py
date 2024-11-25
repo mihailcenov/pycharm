@@ -57,6 +57,7 @@ for ixx in range(len(persons)):
     print(f"  surname = {persons[ixx]['surname']}")
     print(f"  family = {persons[ixx]['family']}")
     print(f"  address = {persons[ixx]['address']}")
+    print(f"  age = {persons[ixx].get('age','no information')}")
     print("")
 
 print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
@@ -76,3 +77,15 @@ for person in persons:
         print(f"  {key}: {value}")
     print("")
     ixx += 1
+
+ddd = {
+    "person": {
+        "name": "georgi",
+        "surname": "Petrov",
+        "family": "Kocev"
+    },
+    "address": "Kokiche, 5",
+    "salary": [1000, 1200, 1300, 1400, 1500, 1200, 1250]
+}
+
+print(ddd)
